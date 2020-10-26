@@ -168,3 +168,64 @@ nav ul li ul li a {
 nav ul li ul li a:hover {
     background-color: #3a352f;
 }
+
+/*contact*/
+.contact-section {
+    background: black;
+    background-size: cover;
+    padding: 60px 0;
+}
+
+.contact-section h1{
+    text-align: center;
+    color: #f0930c;
+}
+
+.border {
+    width: 125px;
+    height: 5px;
+    background: #f0930c;
+    margin: 25px auto;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: auto;
+    padding: 0 10px;
+    overflow: hidden;
+}
+::placeholder {
+    color: #f0930c;
+}
+
+.contact-form-text {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 16px 0;
+    border: 0;
+    background: transparent;
+    padding: 20px 40px;
+    outline: none;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.contact-form-text:focus {
+    box-shadow: 0 0 10px 4px #f0930c;
+}
+textarea.contact-form-text {
+    resize: none;
+    height: 120px;
+}
+
+.contact-form-btn {
+    float: right;
+    border: 0;
+    background: #f0930c;
+    color: #000000;
+    padding: 12px 50px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
