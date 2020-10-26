@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+#container {
+    min-height: 100%;
+}
+
+#main {
+    overflow: auto;
+    padding-bottom: 100px;
+}
+
+#footer {
+    background-color: #000;
+    position: relative;
+    height: 100px;
+    margin-top: -100px;
+    clear: both;
+}
+
+.s-m {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.copy {
+    color: rgb(59, 56, 56);
+    position: absolute;
+    top: 75%;
+    left: 85%;
+}
+
+.s-m a {
+    text-decoration: none;
+    display: inline-flex;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    color: #f0930c;
+    margin: 0 6px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+    font-size: 26px;
+}
+
+/*facebook*/
+.s-m a:hover:nth-child(1){
+    border: 5px solid #3b5998;
+    box-shadow: 0 0 25px #3b5998;
+    
+}
+
+.s-m a:hover .facebook {
+    color: #3b5998;
+    text-shadow: 0 0 25px #3b5998;
+}
+
+#facebook {
+    color: #3b5998;
+}
+
+/*twitter*/
+.s-m a:hover:nth-child(2){
+    border: 5px solid #00aced;
+    box-shadow: 0 0 25px #00aced;
+}
+
+.s-m a:hover .twitter {
+    color: #00aced;
+    text-shadow: 0 0 25px #00aced;
+}
+
+#twitter {
+    color: #00aced;
+}
+
+/*instagram*/
+.s-m a:hover:nth-child(3){
+    border: 5px solid #bc2a8d;
+    box-shadow: 0 0 25px #bc2a8d;
+}
+
+.s-m a:hover .instagram {
+    color: #bc2a8d;
+    text-shadow: 0 0 25px #bc2a8d;
+}
+
+#instagram {
+    color: #bc2a8d;
+}
+
+/*google*/
+.s-m a:hover:nth-child(4){
+    border: 5px solid #dd4b39;
+    box-shadow: 0 0 25px #dd4b39;
+}
+
+.s-m a:hover .google {
+    color: #dd4b39;
+    text-shadow: 0 0 25px #dd4b39;
+}
+
+#google {
+    color: #dd4b39;
+}
+
+nav {
+    width: 100%;
+    height: 75px;
+    background-color: #000;
+}
+
+.logo {
+    float: left;
+    padding: 10px 25px;
+}
+
+nav ul {
+    float: left;
+}
+
+nav ul li {
+    float: left;
+    list-style: none;
+    position: relative;
+}
+
+nav ul li a {
+    display: block;
+    font-family: unset;
+    color: #f0930c;
+    font-size: 20px;
+    padding: 22px 14px;
+    text-decoration: none;
+}
+
+nav ul li ul {
+    display: none;
+    position: absolute;
+    background-color: #000;
+    padding: 10px;
+    border-radius: 0px 0px 4px 4px;
+}
+
+nav ul li:hover ul {
+    display: block;
+}
+
+nav ul li ul li {
+    width: 125px;
+    border-radius: 4px;
+}
+
+nav ul li ul li a {
+    padding: 8px 14px; 
+}
+
+nav ul li ul li a:hover {
+    background-color: #3a352f;
+}
